@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="489.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="spades.MainViewController">
+   <children>
+      <ImageView fx:id="playerCard1" fitHeight="115.0" fitWidth="92.0" layoutX="31.0" layoutY="396.0" onMouseClicked="#setUserCardImageOnClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../CardBack1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="playerCard2" fitHeight="115.0" fitWidth="92.0" layoutX="60.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../CardBack1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="playerCard3" fitHeight="115.0" fitWidth="92.0" layoutX="96.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../CardBack1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="playerCard4" fitHeight="115.0" fitWidth="92.0" layoutX="125.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../CardBack1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="playerCard5" fitHeight="115.0" fitWidth="92.0" layoutX="154.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../CardBack1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="playerCard6" fitHeight="115.0" fitWidth="92.0" layoutX="176.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../CardBack1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="playerCard7" fitHeight="115.0" fitWidth="58.0" layoutX="198.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../CardBack1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="playerCard8" fitHeight="115.0" fitWidth="92.0" layoutX="224.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../CardBack1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="playerCard9" fitHeight="115.0" fitWidth="92.0" layoutX="253.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../CardBack1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="playerCard10" fitHeight="115.0" fitWidth="92.0" layoutX="282.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../CardBack1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cardPlayedIcon" fitHeight="115.0" fitWidth="68.0" layoutX="262.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../CardBack1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="computer1Card" fitHeight="115.0" fitWidth="68.0" layoutX="31.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../CardBack1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="computer2Card" fitHeight="115.0" fitWidth="68.0" layoutX="262.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../CardBack1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="computer3Card" fitHeight="115.0" fitWidth="68.0" layoutX="473.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../CardBack1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="playerCard11" fitHeight="115.0" fitWidth="92.0" layoutX="320.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../CardBack1.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="79.0" layoutY="38.0" mnemonicParsing="false" onAction="#testButton" text="Test" />
+      <ImageView fx:id="playerCard12" fitHeight="115.0" fitWidth="92.0" layoutX="349.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../CardBack1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="playerCard13" fitHeight="115.0" fitWidth="92.0" layoutX="378.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../CardBack1.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
